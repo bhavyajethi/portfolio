@@ -1,13 +1,12 @@
-Bhavya Jethi | Portfolio Website 🌐
+# **Bhavya Jethi | Portfolio Website 🌐**
 Welcome to my personal portfolio website — a vibrant showcase of who I am, what I do, and the projects I've built with passion, code, and a little bit of animation magic 🎨💻.
-🌍 Live Demo
+# **🌍 Live Demo**
 🔗 [View My Live Portfolio](https://portfolio-nu-beige-22.vercel.app/)
 
-🚀 About Me
+# **🚀 About Me**
 I'm Bhavya Jethi, a Computer Science Engineering student specializing in Artificial Intelligence and Machine Learning. I enjoy blending creativity with code to build impactful solutions.
 
-🔧 Technologies I work with:
-
+# **🔧 Technologies I work with:**
 Lnaguages: Python, C++, R
 Frameworks: Django, Flask, Langchain
 Databases: MySQL, SQLAlchemy
