@@ -13,7 +13,7 @@ I'm Bhavya Jethi, a Computer Science Engineering student specializing in Artific
 **Tools**: Git, GitHub
 **AI/ML**: Numpy, Pandas, Matplotlib, Scikit-learn, OpenCV
 
-# **📫 [Contact Me](jethibhavya@gmail.com)**| # **🌐 [LinkedIn](https://www.linkedin.com/in/bhavya-jethi-3b306b250/)**
+# **📫 [Contact Me](jethibhavya@gmail.com)**|  **🌐 [LinkedIn](https://www.linkedin.com/in/bhavya-jethi-3b306b250/)**
 
 # **💬 Feedback**
 Have suggestions? Open an issue or connect with me on [LinkedIn](https://www.linkedin.com/in/bhavya-jethi-3b306b250/)!
