@@ -3,393 +3,239 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bhavya Jethi - AI Developer</title>
+    <title>Bhavya Jethi | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="cursor"></div>
+    <canvas id="star-canvas"></canvas>
     
-    <nav id="navbar">
-        <div class="nav-container">
-            <div class="logo">Bhavya Jethi</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#achievements">Achievements</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#portfolio">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Bhavya Jethi</h1>
-            <p>Software Developer & AI/ML Enthusiast</p>
-            <div class="hero-buttons">
-                <a href="#contact" class="cta-button">Get In Touch</a>
-                <a href="Bhavya Jethi 2.pdf" target="_blank" class="cta-button outline-button">View Resume</a>
-            </div>
-        </div>
-        <div class="floating-shapes">
-            <div class="shape shape-1" data-speed="0.8"></div>
-            <div class="shape shape-2" data-speed="0.5"></div>
-            <div class="shape shape-3" data-speed="0.6"></div>
-        </div>
-    </section>
-
-    <section id="about" class="section">
-        <div class="container">
-            <div class="section-header">
-                <h2>About Me</h2>
-                <div class="line"></div>
-            </div>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="bhavya1.jpg" alt="Bhavya Jethi">
+    <div class="main-container">
+        <section class="hero">
+            <div class="profile-header">
+                <div class="avatar-container">
+                    <img src="bhavya.jpeg" alt="Bhavya Jethi" class="avatar">
                 </div>
-                <div class="about-text">
-                    <p>I'm a passionate software and machine learning engineer with a passion in building intelligent systems and robots and deep learning models. I specialize in natural language processing, computer vision, and developing AI-powered applications.</p>
-                    <p>My journey in AI began with a fascination for how machines can learn and adapt, evolving into creating innovative solutions that solve real-world problems using cutting-edge technologies.</p>
+                <h1 class="name">Bhavya Jethi</h1>
+                <div class="status-bar">
+                    <span><i class="fa-solid fa-location-dot"></i> Gurgaon, IN</span>
+                    <span class="separator">|</span>
+                    <span><i class="fa-solid fa-graduation-cap"></i> B.Tech (CSE)</span>
+                    <span class="separator">|</span>
+                    <span><i class="fa-solid fa-code"></i> AI Engineer</span>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="experience" class="section experience-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Experience</h2>
-                <div class="line"></div>
+            <div class="bio">
+                <p>Hi, I am Bhavya Jethi. I like exploring, building, failing and builing again Retrieval-Augmented Generation (RAG) systems, scalable APIs, and production-ready ML/GenAI applications. I also love exploring random things to increase knowledge./p>
             </div>
-            <div class="experience-content">
-                <div class="experience-item">
-                    <h3>AI Development Intern</h3>
-                    <p class="company">Yahweh Software Solutions</p>
-                    <p class="duration">Jun 2025 - Present</p>
-                    <ul>
-                        <li>Actively involved in technical planning and drafting the Software Requirements Specification (SRS) for a
-                            personalized AI career counselor chatbot being developed from the ground up</li>
-                    </ul>
+
+            <div class="social-links">
+                <a href="mailto:jethibhavya@gmail.com" class="icon-btn" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/bhavya-jethi-3b306b250/" target="_blank" class="icon-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/bhavyajethi" target="_blank" class="icon-btn" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="Bhavya Jethi 13.pdf" target="_blank" class="text-btn"><i class="fa-regular fa-file-lines"></i> Resume</a>
+                <a href="https://leetcode.com/u/Bhavya-Jethi/" target="_blank" class="text-btn"><i class="fa-solid fa-code"></i> LeetCode</a>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">~/Experience</h2>
+            
+            <div class="card">
+                <div class="card-header">
+                    <div class="role-info">
+                        <h3>IT Intern</h3>
+                        <span class="company">Yahweh Software Solutions • Remote</span>
+                    </div>
+                    <span class="date">Jun 2025 – Sep 25 </span>
                 </div>
-                <div class="experience-item">
-                    <h3>Software Developer Intern</h3>
-                    <p class="company">Agratas Infotech</p>
-                    <p class="duration">Jun 2024 - Sep 2024</p>
-                    <ul>
-                        <li>Architected modular backend flows in Django and improved frontend load performance by 25% through asynchronous API optimizations.</li>
-                        <li>Refactored legacy components, reducing backend logic complexity by 40% and enabling easier testing and extension.</li>
-                        <li> Mentored a team of 5 junior contributors, introduced structured code reviews and issue tracking using GitHub Projects.</li>
-                        <li>Integrated secure form validations, and responsive design for an internal business dashboard.</li>
-                    </ul>
-                </div>
-                <div class="experience-item">
-                    <h3>Deep Learning Intern</h3>
-                    <p class="company">Indira Gandhi Delhi Technical University</p>
-                    <p class="duration">Jun 2024 - Aug 2024</p>
-                    <ul>
-                        <li>Built and fine-tuned CNN models for object detection and image classification, achieving 90%+ test accuracy.</li>
-                        <li>Contributed to a computer vision pipeline for real-world use cases, reducing model inference time by 20%.</li>
-                        <li>Conducted experiments with OpenAI GPT, Hugging Face Transformers, and Gemini API to enhance summarization.</li>
-                    </ul>
+                <div class="card-body">
+                    <p>• Developed backend features for an AI career-counsellor chatbot using FastAPI and PostgreSQL, including schemas for user and user profiles,researching model parameters and basic optimization.</p>
+                    <p>• Collaborated with React,Node.js developers and UI/UX designers to integrate backend services, maintained version control using Git/GitHub, for easy collaborative development.</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="achievements" class="section achievements-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Achievements</h2>
-                <div class="line"></div>
-            </div>
-            <div class="achievements-grid">
-                <div class="achievement-item">
-                    <div class="achievement-icon">🏆</div>
-                    <h3>Finalist</h3>
-                    <p>Analytica, National Analytics Competition (IIT Indore).</p>
+            <div class="card">
+                <div class="card-header">
+                    <div class="role-info">
+                        <h3>Software Developer Intern</h3>
+                        <span class="company">Agratas Infotech • Noida, India</span>
+                    </div>
+                    <span class="date">Jun 2024 – Sep 2024</span>
                 </div>
-                <div class="achievement-item">
-                    <div class="achievement-icon">📄</div>
-                    <h3>IDE Bootcamp</h3>
-                    <p>Progressed till top 10 of IDE Bootcamp Phase 1, IISER.</p>
+                <div class="card-body">
+                    <p>Spearheaded a team of 4 interns to design and develop theERP platform using basic Django, HTML, CSS, and JavaScript translating complex business requirements into intuitive, user-focused features.</p>
+                    <p>Established standardized Git workflows and processes on GitHub, and to ensure maintainable, high quality, and collaborative development.</p>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <section id="skills" class="section skills-section">
-    <div class="container">
-        <div class="section-header">
-            <h2>Skills & Expertise</h2>
-            <div class="line"></div>
-        </div>
-
-        <!-- Programming Languages -->
-        <div class="frameworks-section">
-            <h3>Programming Languages</h3>
-            <div class="circular-skills">
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" width="40"/>
-                        </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="role-info">
+                        <h3>Deep Learning Intern</h3>
+                        <span class="company">IGDTUW • New Delhi, India</span>
                     </div>
-                    <p>Python</p>
+                    <span class="date">Jun 2024 – Aug 2024</span>
                 </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" width="40"/>
-                        </div>
-                    </div>
-                    <p>C++</p>
-                </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg" alt="R" width="40"/>
-                        </div>
-                    </div>
-                    <p>R</p>
+                <div class="card-body">
+                    <p>• Built and fine-tuned CNN models for object detection and image classification, achieving 90%+ test accuracy.</p>
+                    <p>• Conducted experiments with OpenAI GPT, Hugging Face Transformers, and Gemini API to enhance summarization pipelines.</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <!-- Frameworks -->
-        <div class="frameworks-section">
-            <h3>Frameworks</h3>
-            <div class="circular-skills">
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django" width="40"/>
-                        </div>
+        <section class="section">
+            <h2 class="section-title">~/Projects</h2>
+
+            <div class="card">
+                <div class="card-header-project">
+                    <h3>SnapCook: Optimized AI Recipe Microservice</h3>
+                    <div class="project-links">
+                        <a href="https://snapcook-wh0q.onrender.com/" target="_blank" class="pill-link">Live <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/bhavyajethi/Snapcook" target="_blank" class="pill-link">GitHub <i class="fa-brands fa-github"></i></a>
                     </div>
-                    <p>Django</p>
                 </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" width="40"/>
-                        </div>
+                <div class="card-body">
+                    <p>Image-based recipe generation with redis caching, rate limiting, perceptual hashing and streamed responses.</p>
+                    <div class="tech-stack">
+                        <span>FastAPi</span>
+                        <span>Redis</span>
+                        <span>Gemini</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
                     </div>
-                    <p>Flask</p>
-                </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://avatars.githubusercontent.com/u/139944110?s=200&v=4" alt="LangChain" width="40"/>
-                        </div>
-                    </div>
-                    <p>LangChain</p>
                 </div>
             </div>
-        </div>
 
-        <!-- AI/ML Libraries -->
-        <div class="frameworks-section">
-            <h3>AI / ML Libraries</h3>
-            <div class="circular-skills">
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" alt="NumPy" width="40"/>
-                        </div>
+            <div class="card">
+                <div class="card-header-project">
+                    <h3>MediBot : AI RAG Medical Chatbot</h3>
+                    <div class="project-links">
+                        <a href="https://drive.google.com/file/d/18I1j4Gn7oxEYju3VOeO8EA9Ljm8twlrQ/view?usp=sharing" target="_blank" class="pill-link">Demo <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/bhavyajethi/MediBot" target="_blank" class="pill-link">GitHub <i class="fa-brands fa-github"></i></a>
                     </div>
-                    <p>NumPy</p>
                 </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" alt="Pandas" width="40"/>
-                        </div>
+                <div class="card-body">
+                    <p>Context-aware medical responses using document retrieval over medical PDFs.</p>
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>Langchain</span>
+                        <span>HuggingFace</span>
+                        <span>Mistral Model</span>
+                        <span>Streamlit</span>
+                        <span>FAISS</span>
                     </div>
-                    <p>Pandas</p>
-                </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://matplotlib.org/_static/images/logo2.svg" alt="Matplotlib" width="40"/>
-                        </div>
-                    </div>
-                    <p>Matplotlib</p>
-                </div>
-
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="Scikit-learn" width="40"/>
-                        </div>
-                    </div>
-                    <p>Scikit-learn</p>
                 </div>
             </div>
-        </div>
 
-        <!-- Databases & ORMs -->
-        <div class="frameworks-section">
-            <h3>Databases & ORMs</h3>
-            <div class="circular-skills">
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" width="40"/>
-                        </div>
+            <div class="card">
+                <div class="card-header-project">
+                    <h3>Secure Webhook Containerized API</h3>
+                    <div class="project-links">
+                        <a href="https://github.com/bhavyajethi/Lyftr_ai" target="_blank" class="pill-link">GitHub <i class="fa-brands fa-github"></i></a>
                     </div>
-                    <p>SQL</p>
                 </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://www.sqlalchemy.org/img/sqla_logo.png" alt="SQLAlchemy" width="40"/>
-                        </div>
+                <div class="card-body">
+                    <p>FastAPI service with signature verification, idempotency, logging, monitoring and prometheus style metrics.</p>
+                    <div class="tech-stack">
+                        <span>FastAPI</span>
+                        <span>Docker</span>
+                        <span>SQLite</span>
+                        <span>Prometheus</span>
+                        <span>HMAC-SHA256</span>
                     </div>
-                    <p>SQLAlchemy</p>
                 </div>
             </div>
-        </div>
 
-        <!-- Tools -->
-        <div class="frameworks-section">
-            <h3>Tools</h3>
-            <div class="circular-skills">
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" width="40"/>
-                        </div>
-                    </div>
-                    <p>Git</p>
-                </div>
-
-                <div class="circular-skill">
-                    <div class="circular-progress">
-                        <div class="inner-circle">
-                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" width="40"/>
-                        </div>
-                    </div>
-                    <p>GitHub</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-    <section id="portfolio" class="section portfolio-section">
-    <div class="container">
-        <div class="section-header">
-            <h2>My Projects</h2>
-            <div class="line"></div>
-        </div>
-        <div class="portfolio-grid">
-            <div class="portfolio-item">
-                <div class="project-card">
-                    <div class="project-tech">Python, beatuifulsoup4, Gemini API, Gmail API, Ultramsg</div>
-                    <h3>Smart Mail Agent System</h3>
-                    <p>Designed a practical, data-driven email management assistant to streamline communication and enhance
-                        productivity for users.</p>
-                    <p>Implemented content analysis and structured data extraction for real-time email processing and notification.</p>
-                    <a href="https://github.com/bhavyajethi/Smart-mail-system" class="portfolio-link">View Project</a>
-                </div>
-            </div>
-            <div class="portfolio-item">
-                <div class="project-card">
-                    <div class="project-tech">Python, CNN, TensorFlow, Librosa, Streamlit</div>
+            <div class="card">
+                <div class="card-header-project">
                     <h3>DeepFake Audio Detection</h3>
-                    <p>Developed a CNN model to classify real vs. deepfake audio with 87% accuracy.</p>
-                    <p>Utilized TensorFlow for efficient model training and evaluation. Extracted Mel spectrograms using Librosa for high-quality input representation.</p>
-                    <a href="https://github.com/aashutosh004/Fake-or-Real-Audio-Classification" class="portfolio-link">View Project</a>
+                    <div class="project-links">
+                        <a href="https://github.com/aashutosh004/Fake-or-Real-Audio-Classification" target="_blank" class="pill-link">GitHub <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>Team contributed project for real vs manipulated audio detection using extracted spectral features.</p>
+                    <div class="tech-stack">
+                        <span>TensorFlow</span>
+                        <span>CNN</span>
+                        <span>Librosa</span>
+                        <span>Python</span>
+                        <span>Streamlit</span>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio-item">
-                <div class="project-card">
-                    <div class="project-tech">Python, Langchain, FAISS, HuggingFace, Streamlit</div>
-                    <h3>MediBot</h3>
-                    <p>Developed an AI-powered medical chatbot using Retrieval-Augmented Generation to ensure factual, context
-                        grounded responses.</p>
-                    <p>Utilized LangChain with Mistral-7B-Instruct-v0.3 for structured LLM orchestration and instruction-tuned
-                        generation. Integrated FAISS for high-speed vector search, enabling precise and efficient retrieval from a
-                        medical knowledge base.</p>
-                    <a href="https://github.com/bhavyajethi/MediBot" class="portfolio-link">View Project</a>
-                    <a href="https://drive.google.com/file/d/18I1j4Gn7oxEYju3VOeO8EA9Ljm8twlrQ/view" class="portfolio-link">View Demo</a>
+
+            <div class="card">
+                <div class="card-header-project">
+                    <h3>AutoGuard : Driver Drowsiness Detection System
+                    <div class="project-links">
+                        <a href="https://github.com/bhavyajethi/AutoGuard" target="_blank" class="pill-link">GitHub <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>Real-time video-based detection of driver drowsiness and distractions.</p>
+                    <div class="tech-stack">
+                        <span>YOLO</span>
+                        <span>OpenPose</span>
+                        <span>OpenCV</span>
+                        <span>Python</span>
+                        <span>Flask</span>
+                        <span>Sound/Visual Alerts </span>
+                    </div>
                 </div>
             </div>
-            <div class="portfolio-item">
-                <div class="project-card">
-                    <div class="project-tech">HTML, CSS, JavaScript</div>
-                    <h3>Personal Portfolio Website</h3>
-                    <p>Designed and developed a modern, responsive portfolio website using HTML, CSS, JavaScript to showcase skills and projects.</p>
-                    <a href="https://github.com/bhavyajethi/portfolio" class="portfolio-link">View Project</a>
+
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">~/Technical Skills</h2>
+            <div class="grid-2-col">
+                <div class="card skill-card">
+                    <h3>Programming Languages</h3>
+                    <p>Python, Java, C++, R, SQL, HTML/CSS</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Web</h3>
+                    <p>Flask, FastAPI, HTML, CSS</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>AI / ML</h3>
+                    <p>NumPy, Pandas, Scikit-learn, Matplotlib, Langchain, RAG</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>DB</h3>
+                    <p>MySQL, PostgreSQL</p>
+                </div>
+                <div class="card skill-card">
+                    <h3>Tools</h3>
+                    <p>Git, GitHub, Streamlit, EBS, EC2, Miro</p>
                 </div>
             </div>
-        </div>
+        </section>
+
+        <section class="section">
+            <h2 class="section-title">~/Certifications & Achievements</h2>
+            <div class="card">
+                <ul class="achievement-list">
+                    <li><strong>Finalist:</strong> Analytica National ML Competition (IIT Indore) - April 2024</li>
+                    <li><strong>Finalist:</strong> IDE Bootcamp (IISER) - Top 10 in Phase 1 - Jun 2023</li>
+                    <li><strong>NPTEL:</strong> NPTEL- Silver Introduction to Machine Learning- Top 5%</li>
+                    <li><strong>Oracle</strong>Oracle- OCI Foundations Associate</li>
+                    <li><strong>Oracle</strong>Oracle- OCI AI Foundations Associate</li>
+                    <li><strong>IR4.0 Technologies</strong>Programme of Microsoft, SAP, and Edunet Foundation</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2026 Bhavya Jethi. I vibe-code, but I don’t vibe-debug.</p>
+        </footer>
     </div>
-</section>
-
-    <section id="contact" class="section contact-section">
-        <div class="container">
-            <div class="section-header">
-                <h2>Get In Touch</h2>
-                <div class="line"></div>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>Let's work together</h3>
-                    <p>I'm always interested in hearing about new projects and opportunities.</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <strong>Email:</strong>
-                            <span>jethibhavya@gmail.com</span>
-                        </div>
-                        <div class="contact-item">
-                            <strong>GitHub:</strong>
-                            <a href = "https://github.com/bhavyajethi"><b>Bhavyajethi</b></a>
-                        </div>
-                        <div class="contact-item">
-                            <strong>Location:</strong>
-                            <span>India</span>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form" action="https://formspree.io/f/mqaqryvg" method="POST">
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-                    </div>
-                    <button type="submit" class="submit-btn">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p>&copy; 2025 Bhavya Jethi. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/bhavya-jethi-3b306b250/">LinkedIn</a>
-                    <a href="https://github.com/bhavyajethi">GitHub</a>
-                    <a href="https://leetcode.com/u/Bhavya-Jethi/">LeetCode</a>
-                </div>
-            </div>
-        </div>
-    </footer>
 
     <script src="script.js"></script>
 </body>
